@@ -1,0 +1,276 @@
+/* Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*
+Note: The best way to structure the use of media queries is to create the queries
+near the relevant code. For example, if you wanted to change the styles for buttons
+on small devices, paste the mobile query code up in the buttons section and style it
+there.
+*/
+
+/* iPhone 5/SE e 4 */
+@media (min-width: 320px) {
+
+    h1 {
+        font-size: 30px;
+        margin-top: 21vh;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    h4 {
+        margin-bottom: 1rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+    }
+
+    ul.ul-slider {
+        margin-top: 17%;
+    }
+
+    #slider_domanda3 {
+        top: -6vh;
+    }
+
+    h3#svago {
+        margin-top: 10px;
+    }
+
+    ul li.pulsante {
+        width: 18%;
+    }
+
+    ul.ul-pulsante {
+        margin-top: -27px;
+    }
+
+    .pulsante h3 {
+        font-size: 10px;
+    }
+
+    #generale_pulsanti {
+        margin-top: 11%;
+    }
+
+    #valori_numerici {
+        transform: translate(-50%, -46%);
+    }
+
+    .barra-numeri {
+        transform: translate(0px, -76px);
+    }
+
+    #slider_domanda2_mattina {
+        top: 37px
+    }
+
+    #titolo_mattina {
+        top: -17px;
+    }
+
+    #consumo_medio_bubble {
+        margin-top: -61%;
+    }
+
+    .conferma_iniziale {
+        top: 86vh;
+    }
+
+    .conferma {
+        top: 86vh;
+    }
+
+    .indietro {
+        top: 86.9vh;
+    }
+
+    #titolo_pomeriggio {
+        top: -74px;
+    }
+
+    #slider_domanda2_sera {
+        top: -78px;
+    }
+
+    #slider_domanda2_pomeriggio {
+        top: -21px;
+    }
+
+    #titolo_sera {
+        top: -131px;
+    }
+
+    #domanda1 h2 {
+        position: relative;
+        top: 13vh;
+    }
+
+    #domanda2 h2 {
+        position: relative;
+        top: 13vh;
+    }
+
+    #domanda3 h2 {
+        position: relative;
+        top: 13vh;
+    }
+
+    #domanda2 p {
+        margin-top: 10vh;
+    }
+
+    #domanda1 p {
+        margin-top: 10vh;
+    }
+
+    #domanda3 p {
+        margin-top: 10vh;
+    }
+    
+    #paragrafo1 h2 {
+    margin-top: 13vh;
+}
+
+
+}
+
+/* GT */
+@media (min-width: 360px) {
+    h1 {
+        font-size: 36px;
+    }
+
+    p {
+        font-size: 1.3rem;
+    }
+
+    ul.ul-slider {
+        margin-top: 28%;
+    }
+
+    #domanda3 p {
+        margin-top: 14vh;
+    }
+
+    #domanda1 p {
+        margin-top: 14vh;
+    }
+
+    #domanda2 p {
+        margin-top: 14vh;
+    }
+
+    .indietro {
+        transform: translate(150%, -56%);
+    }
+
+    .pulsante h3 {
+        font-size: 12px;
+    }
+
+    #consumo_medio_bubble {
+        margin-top: -55%;
+    }
+}
+
+
+@media (min-width: 414px) {
+
+    #generale_pulsanti {
+        margin-top: 16%;
+    }
+
+    #sliders {
+        margin-top: 5vh;
+    }
+
+}
+
+/* TABLET */
+@media (min-width: 700px) {
+
+    #domanda3 p {
+        margin-top: 19vh;
+    }
+
+    #domanda2 p {
+        margin-top: 19vh;
+    }
+
+    #domanda1 p {
+        margin-top: 19vh;
+    }
+
+    #studio_percentuale {
+        font-size: 42px;
+    }
+
+    #svago_percentuale {
+        font-size: 42px;
+    }
+
+    #slider_domanda3 {
+        top: 1vh;
+    }
+
+    ul.ul-slider {
+        margin-top: 53%;
+    }
+
+    .indietro {
+        transform: translate(-150%, -63%);
+    }
+
+    ul li.pulsante {
+        width: 23%;
+    }
+
+    #generale_pulsanti {
+        margin-top: 45%;
+    }
+    
+    #paragrafo2 {
+    height: 592vh;
+    }
+}
+
+@media (min-width: 1024px){
+    
+    #paragrafo2 {
+    height: 525vh;
+}
+
+}
+
+@media (min-width: 1200px) {
+
+    #descrizione {
+        margin-top: 100px;
+    }
+
+    #valori_numerici {
+        transform: translate(-50%, -134%);
+    }
+
+    #slider_domanda3 {
+        top: -13vh;
+    }
+
+    .indietro {
+        transform: translate(153%, -63%);
+    }
+
+    ul li.pulsante {
+        width: 18%;
+    }
+
+    #generale_pulsanti {
+        margin-top: 9%;
+    }
+        #consumo_medio_bubble {
+    margin-top: -31%;
+}
+}
