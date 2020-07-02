@@ -9,30 +9,50 @@
 }
 
 @font-face {
-    font-family: SoleSans;
-    src: url(//c2.res.24o.it/fonts/sole-sans/Sole24SansW-Regular.eot);
-    src: url(//c2.res.24o.it/fonts/sole-sans/Sole24SansW-Regular.eot?#iefix) format("eot"),url(//c2.res.24o.it/fonts/sole-sans/Sole24SansW-Regular.woff2) format("woff2"),url(//c2.res.24o.it/fonts/sole-sans/Sole24SansW-Regular.woff) format("woff"),url(//c2.res.24o.it/fonts/sole-sans/Sole24SansW-Regular.ttf) format("truetype");
+    font-family: 'Sole24Sans-Regular';
+    src: url('//c2.res.24o.it/fonts/sole-sans/Sole24SansW-Regular.eot');
+    src: url('//c2.res.24o.it/fonts/sole-sans/Sole24SansW-Regular.eot?#iefix') format("eot"),
+    url('//c2.res.24o.it/fonts/sole-sans/Sole24SansW-Regular.woff2') format("woff2"),
+    url('//c2.res.24o.it/fonts/sole-sans/Sole24SansW-Regular.woff') format("woff"),
+    url('//c2.res.24o.it/fonts/sole-sans/Sole24SansW-Regular.ttf') format("truetype");
     font-weight: 400;
+    font-style: normal
+    }
+
+@font-face {
+    font-family: 'Sole24SerifText-Bold';
+    src: url('//c2.res.24o.it/fonts/w-fonts/SoleSerifHeadline_W_Bd.eot');
+    src: url('//c2.res.24o.it/fonts/w-fonts/SoleSerifHeadline_W_Bd.eot?#iefix') format('embedded-opentype'), url('//c2.res.24o.it/fonts/w-fonts/SoleSerifHeadline_W_Bd.woff2') format('woff2'), url('//c2.res.24o.it/fonts/w-fonts/SoleSerifHeadline_W_Bd.woff') format('woff'), url('//c2.res.24o.it/fonts/w-fonts/SoleSerifHeadline_W_Bd.ttf') format('truetype'), url('//c2.res.24o.it/fonts/w-fonts/SoleSerifHeadline_W_Bd.svg#SoleSerifHeadline_W_Bd') format('svg');
+    font-weight: 700;
     font-style: normal
 }
 
 @font-face {
-    font-family: 'sole_headline';
-    src: url('//c2.res.24o.it/fonts/w-fonts/SoleSerifHeadline_W_Lt.eot');
-    src: url('//c2.res.24o.it/fonts/w-fonts/SoleSerifHeadline_W_Lt.eot?#iefix') format('embedded-opentype'),url('//c2.res.24o.it/fonts/w-fonts/SoleSerifHeadline_W_Lt.woff2') format('woff2'),url('//c2.res.24o.it/fonts/w-fonts/SoleSerifHeadline_W_Lt.woff') format('woff'),url('//c2.res.24o.it/fonts/w-fonts/SoleSerifHeadline_W_Lt.ttf') format('truetype'),url('//c2.res.24o.it/fonts/w-fonts/SoleSerifHeadline_W_Lt.svg#SoleSerifHeadline_W_Lt') format('svg');
-    font-weight: 300;
+    font-family: 'Sole24SerifHeadLine-Black'
+    src: url('//c2.res.24o.it/fonts/w-fonts/SoleSerifHeadlineSC_W_Bd.eot');
+    src: url('//c2.res.24o.it/fonts/w-fonts/SoleSerifHeadlineSC_W_Bd.eot?#iefix') format('embedded-opentype'), url('//c2.res.24o.it/fonts/w-fonts/SoleSerifHeadlineSC_W_Bd.woff2') format('woff2'), url('//c2.res.24o.it/fonts/w-fonts/SoleSerifHeadlineSC_W_Bd.woff') format('woff'), url('//c2.res.24o.it/fonts/w-fonts/SoleSerifHeadlineSC_W_Bd.ttf') format('truetype'), url('//c2.res.24o.it/fonts/w-fonts/SoleSerifHeadlineSC_W_Bd.svg#SoleSerifHeadlineSC_W_Bd') format('svg');
+    font-weight: 700;
     font-style: normal
 }
 
+@font-face {
+    font-family: 'Sole24Sans-Bold';
+    src: url(//c2.res.24o.it/fonts/sole-sans/Sole24SansW-Bold.eot);
+    src: url(//c2.res.24o.it/fonts/sole-sans/Sole24SansW-Bold.eot?#iefix) format("eot"), url(//c2.res.24o.it/fonts/sole-sans/Sole24SansW-Bold.woff2) format("woff2"), url(//c2.res.24o.it/fonts/sole-sans/Sole24SansW-Bold.woff) format("woff"), url(//c2.res.24o.it/fonts/sole-sans/Sole24SansW-Bold.ttf) format("truetype");
+    font-weight: 700;
+    font-style: normal
+}
+
+
 * {
     font-size: 1.5rem;
-    font-family: 'SoleSans';
+    font-family: 'Sole24Sans-Regular';
     text-rendering: optimizeLegibility;
 }
 
 html {
     font-size: 12px;
-    font-family: 'SoleSans';
+    font-family: 'Sole24Sans-Regular';
     overflow-x: hidden !important;
     scroll-behavior: smooth;
 }
@@ -46,7 +66,7 @@ body {
 }
 
 h1 {
-    font-family: 'sole_headline';
+    font-family: 'Sole24SerifHeadLine-Black';
     text-align: center;
     font-size: 38px;
     letter-spacing: 1.5px;
@@ -56,7 +76,7 @@ h1 {
 }
 
 h2 {
-    font-family: 'sole_headline';
+    font-family: 'Sole24SerifText-Bold';
     text-align: center;
     font-size: 27px;
     letter-spacing: 1px;
@@ -66,7 +86,7 @@ h2 {
 }
 
 h3 {
-    font-family: 'SoleSans';
+    font-family: 'Sole24Sans-Bold';
     text-align: center;
     font-size: 13px;
     font-weight: bold;
@@ -75,12 +95,12 @@ h3 {
 }
 
 h4 {
-    font-family: 'sole_headline';
+    font-family: 'Sole24SerifText-Bold';
     color: var(--rosso-color);
 }
 
 p {
-    font-family: 'SoleSans';
+    font-family: 'Sole24Sans-Regular';
     letter-spacing: 1px;
     color: var(--grigio-color);
     line-height: 1.2;
@@ -298,7 +318,7 @@ ul.ul-slider {
 }
 
 .barra_4 {
-    font-family: 'SoleSans';
+    font-family: 'Sole24Sans-Bold';
 }
 
 .barra_5 {
@@ -519,7 +539,7 @@ ul.ul-pulsante {
 }
 
 .grafico_automatico_2 {
-    font-family: 'SoleSans';
+    font-family: 'Sole24Sans-Bold';
 }
 
 .grafico_automatico_3 {
@@ -655,7 +675,7 @@ ul.ul-pulsante {
 #icone_dispositivi {
     position: relative;
     height: 122vh;
-    background-image: url(../images/gif/elementi.gif);
+    background-image: url(../images/gif/elementi.png);
     background-size: cover;
     background-position: center;
 }
@@ -686,7 +706,7 @@ ul.ul-pulsante {
 }
 
 .grafico_nazioni_1 {
-    font-family: 'SoleSans';
+    font-family: 'Sole24Sans-Bold';
     color: var(--grigio-color);
 }
 
@@ -853,7 +873,7 @@ ul.ul-nazioni {
 }
 
 .grafico_siti_1 {
-    font-family: 'SoleSans';
+    font-family: 'Sole24Sans-Bold';
 }
 
 .grafico_siti_2 {
@@ -960,7 +980,7 @@ ul.ul-nazioni {
 #groviglio {
     height: 100vh;
     position: relative;
-    background-image: url(../images/gif/groviglio.gif);
+    background-image: url(../images/gif/groviglio.png);
     background-size: cover;
     background-position: center;
 }
@@ -1011,7 +1031,7 @@ ul.ul-nazioni {
 
 #server-container {
     text-align: center;
-    background-image: url(../images/gif/linea-server.gif);
+    background-image: url(../images/gif/linea-server.png);
     background-size: cover;
     background-position: center;
 }
@@ -1117,6 +1137,6 @@ a:hover {
 }
 
 .crediti_contenuto p {
-    font-family: 'SoleSans';
+    font-family: 'Sole24Sans-Regular';
     font-size: 1.2rem;
 }
