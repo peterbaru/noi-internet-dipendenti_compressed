@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Livello_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#EB672F;stroke:#EB6630;stroke-linecap:round;stroke-linejoin:round;}
+	.st1{fill:#D20C4C;stroke:#D20C4C;stroke-linecap:round;stroke-linejoin:round;}
+	.st2{fill:#1E284C;stroke:#1E284C;stroke-linecap:round;stroke-linejoin:round;}
+	.st3{fill:none;stroke:#F4F4F4;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;}
+	.st4{fill:#FF6725;stroke:#FF6725;stroke-linecap:round;stroke-linejoin:round;}
+	.st5{fill:#D4024A;stroke:#D4024A;stroke-linecap:round;stroke-linejoin:round;}
+	.st6{fill:#27234D;stroke:#27234D;stroke-linecap:round;stroke-linejoin:round;}
+</style>
+<g>
+	<g id="Group_196" transform="translate(-129.529 -276.438)">
+		<g id="Group_179" transform="translate(130.029 276.938)">
+			<path id="Path_651" class="st0" d="M5.7,0.4L0.4,5.5l3.3,2.8l1.9-0.6v85.7h93v-93C98.6,0.4,5.7,0.4,5.7,0.4z"/>
+			<path id="Path_652" class="st1" d="M93.2,5.7l5.4-5.3v93l-5.3,5.1L93.2,5.7z"/>
+			<rect id="Rectangle_939" x="0.3" y="5.6" class="st2" width="93" height="93"/>
+		</g>
+		<g id="Group_183" transform="translate(3006.124 -1025.83)">
+			<circle id="Ellipse_93" class="st3" cx="-2807.6" cy="1338.4" r="9"/>
+			<circle id="Ellipse_94" class="st3" cx="-2827.5" cy="1349.1" r="9"/>
+			<path id="Path_653" class="st3" d="M-2841.8,1375c0-8.3,4.4-15.2,14.3-15.2c10,0,14.3,7,14.3,15.2"/>
+			<path id="Path_654" class="st3" d="M-2821.6,1360.8c1.1-6.7,5.5-11.7,14.1-11.7c10,0,14.3,7,14.3,15.2"/>
+			<circle id="Ellipse_95" class="st3" cx="-2847.5" cy="1338.4" r="9"/>
+			<path id="Path_655" class="st3" d="M-2833.4,1360.8c-1.1-6.7-5.5-11.8-14.1-11.8c-10,0-14.3,7-14.3,15.2"/>
+		</g>
+	</g>
+	<path id="Path_651_1_" class="st4" d="M5.9,0.6L0.6,5.7L4,8.5l1.9-0.6v86.3h93.6V0.6H5.9z"/>
+	<path id="Path_652_1_" class="st5" d="M94,5.9l5.5-5.3v93.6l-5.3,5.1L94,5.9z"/>
+	<rect id="Rectangle_939_1_" x="0.5" y="5.8" class="st6" width="93.6" height="93.6"/>
+	<g id="Group_183_1_" transform="translate(3006.124 -1025.83)">
+		<circle id="Ellipse_93_1_" class="st3" cx="-2936.9" cy="1061.9" r="9.1"/>
+		<circle id="Ellipse_94_1_" class="st3" cx="-2957" cy="1072.7" r="9.1"/>
+		<path id="Path_653_1_" class="st3" d="M-2971.4,1098.8c0-8.4,4.4-15.3,14.4-15.3s14.4,7,14.4,15.3"/>
+		<path id="Path_654_1_" class="st3" d="M-2951.1,1084.5c1.1-6.7,5.5-11.8,14.2-11.8c10,0,14.4,7,14.4,15.3"/>
+		<circle id="Ellipse_95_1_" class="st3" cx="-2977.1" cy="1061.9" r="9.1"/>
+		<path id="Path_655_1_" class="st3" d="M-2963,1084.5c-1.1-6.7-5.5-11.8-14.2-11.8c-10,0-14.4,7-14.4,15.3"/>
+	</g>
+</g>
+</svg>
